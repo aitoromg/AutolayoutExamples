@@ -168,6 +168,41 @@
             </objects>
             <point key="canvasLocation" x="94" y="1459"/>
         </scene>
+        <!--Constraints Inequalities-->
+        <scene sceneID="6tv-xe-seV">
+            <objects>
+                <viewController title="Constraints Inequalities" id="Jq7-yS-7YZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J0L-FT-9wZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oO-D8-fCW">
+                                <rect key="frame" x="348" y="44" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Label Label Label Label Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7A-IT-hiu">
+                                <rect key="frame" x="115" y="48" width="184" height="40.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0oO-D8-fCW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="a7A-IT-hiu" secondAttribute="trailing" constant="8" id="3Cz-ct-Tr8"/>
+                            <constraint firstItem="0oL-Dw-7ut" firstAttribute="trailing" secondItem="0oO-D8-fCW" secondAttribute="trailing" constant="20" id="4gq-L4-amc"/>
+                            <constraint firstItem="0oO-D8-fCW" firstAttribute="top" secondItem="0oL-Dw-7ut" secondAttribute="top" id="5Hv-3Y-2bi"/>
+                            <constraint firstItem="a7A-IT-hiu" firstAttribute="centerX" secondItem="J0L-FT-9wZ" secondAttribute="centerX" id="mdd-MK-2lM"/>
+                            <constraint firstItem="a7A-IT-hiu" firstAttribute="firstBaseline" secondItem="0oO-D8-fCW" secondAttribute="firstBaseline" id="zpL-Rv-RHK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0oL-Dw-7ut"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BKG-hc-2kC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="82.608695652173921" y="2113.3928571428569"/>
+        </scene>
     </scenes>
     <resources>
         <image name="star-wars-the-last-jedi-poster.jpg" width="480" height="800"/>
