@@ -13,6 +13,7 @@
 		A16074AE2166B42200DC84DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16074AD2166B42200DC84DE /* Assets.xcassets */; };
 		A16074B12166B42200DC84DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16074AF2166B42200DC84DE /* LaunchScreen.storyboard */; };
 		A16074B92166B47E00DC84DE /* star-wars-the-last-jedi-poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A16074B82166B47E00DC84DE /* star-wars-the-last-jedi-poster.jpg */; };
+		A16074BB2166C34C00DC84DE /* LayoutGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16074BA2166C34C00DC84DE /* LayoutGuideViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A16074B02166B42200DC84DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16074B22166B42200DC84DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A16074B82166B47E00DC84DE /* star-wars-the-last-jedi-poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "star-wars-the-last-jedi-poster.jpg"; sourceTree = "<group>"; };
+		A16074BA2166C34C00DC84DE /* LayoutGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutGuideViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A16074AD2166B42200DC84DE /* Assets.xcassets */,
 				A16074AF2166B42200DC84DE /* LaunchScreen.storyboard */,
 				A16074B22166B42200DC84DE /* Info.plist */,
+				A16074BA2166C34C00DC84DE /* LayoutGuideViewController.swift */,
 			);
 			path = AutolayoutExamples;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				A16074A92166B42100DC84DE /* ViewController.swift in Sources */,
 				A16074A72166B42100DC84DE /* AppDelegate.swift in Sources */,
+				A16074BB2166C34C00DC84DE /* LayoutGuideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
