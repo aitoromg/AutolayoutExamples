@@ -12,6 +12,7 @@
 		A16074AC2166B42100DC84DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16074AA2166B42100DC84DE /* Main.storyboard */; };
 		A16074AE2166B42200DC84DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16074AD2166B42200DC84DE /* Assets.xcassets */; };
 		A16074B12166B42200DC84DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16074AF2166B42200DC84DE /* LaunchScreen.storyboard */; };
+		A16074B92166B47E00DC84DE /* star-wars-the-last-jedi-poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A16074B82166B47E00DC84DE /* star-wars-the-last-jedi-poster.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A16074AD2166B42200DC84DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A16074B02166B42200DC84DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16074B22166B42200DC84DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16074B82166B47E00DC84DE /* star-wars-the-last-jedi-poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "star-wars-the-last-jedi-poster.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		A16074A52166B42100DC84DE /* AutolayoutExamples */ = {
 			isa = PBXGroup;
 			children = (
+				A16074B82166B47E00DC84DE /* star-wars-the-last-jedi-poster.jpg */,
 				A16074A62166B42100DC84DE /* AppDelegate.swift */,
 				A16074A82166B42100DC84DE /* ViewController.swift */,
 				A16074AA2166B42100DC84DE /* Main.storyboard */,
@@ -125,6 +128,7 @@
 				A16074B12166B42200DC84DE /* LaunchScreen.storyboard in Resources */,
 				A16074AE2166B42200DC84DE /* Assets.xcassets in Resources */,
 				A16074AC2166B42100DC84DE /* Main.storyboard in Resources */,
+				A16074B92166B47E00DC84DE /* star-wars-the-last-jedi-poster.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
