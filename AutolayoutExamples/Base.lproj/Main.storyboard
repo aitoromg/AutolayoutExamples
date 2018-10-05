@@ -30,6 +30,76 @@
             </objects>
             <point key="canvasLocation" x="128.80000000000001" y="132.68365817091455"/>
         </scene>
+        <!--Simple StackView-->
+        <scene sceneID="Z97-x4-YIM">
+            <objects>
+                <viewController title="Simple StackView" id="vyZ-SC-8A6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="66O-9g-ruu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lG5-Lq-0HR">
+                                <rect key="frame" x="135.33333333333331" y="64" width="143.33333333333331" height="81"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hola a Todos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ds3-nH-Ywh">
+                                        <rect key="frame" x="21.999999999999993" y="0.0" width="99.333333333333314" height="20.333333333333332"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="este es un ejemplo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdH-fK-n2D">
+                                        <rect key="frame" x="0.0" y="30.333333333333329" width="143.33333333333334" height="20.333333333333329"/>
+                                        <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="de stackview" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDf-Ti-Aie">
+                                        <rect key="frame" x="22.000000000000007" y="60.666666666666679" width="99.666666666666686" height="20.333333333333336"/>
+                                        <color key="backgroundColor" red="0.035294117649999998" green="0.12549019610000001" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jsc-CQ-j4Q">
+                                <rect key="frame" x="20" y="438" width="374" height="20.333333333333314"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jH-Vi-Df3">
+                                        <rect key="frame" x="0.0" y="0.0" width="332.33333333333331" height="20.333333333333332"/>
+                                        <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5u-v0-t7c">
+                                        <rect key="frame" x="332.33333333333331" y="0.0" width="41.666666666666686" height="20.333333333333332"/>
+                                        <color key="backgroundColor" red="0.90588235289999997" green="0.031372549020000001" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jsc-CQ-j4Q" firstAttribute="centerX" secondItem="66O-9g-ruu" secondAttribute="centerX" id="0YQ-ZE-scW"/>
+                            <constraint firstItem="jsc-CQ-j4Q" firstAttribute="leading" secondItem="apa-dL-gwD" secondAttribute="leading" constant="20" id="Gir-7q-Uua"/>
+                            <constraint firstItem="apa-dL-gwD" firstAttribute="trailing" secondItem="jsc-CQ-j4Q" secondAttribute="trailing" constant="20" id="R6M-CK-1Rj"/>
+                            <constraint firstItem="lG5-Lq-0HR" firstAttribute="top" secondItem="apa-dL-gwD" secondAttribute="top" constant="20" id="SeB-sR-B4l"/>
+                            <constraint firstItem="lG5-Lq-0HR" firstAttribute="centerX" secondItem="66O-9g-ruu" secondAttribute="centerX" id="bzu-pt-1ez"/>
+                            <constraint firstItem="jsc-CQ-j4Q" firstAttribute="centerY" secondItem="66O-9g-ruu" secondAttribute="centerY" id="hdX-5D-Eu8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="apa-dL-gwD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gNc-r7-nbV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114" y="800"/>
+        </scene>
     </scenes>
     <resources>
         <image name="star-wars-the-last-jedi-poster.jpg" width="480" height="800"/>
